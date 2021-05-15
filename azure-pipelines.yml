@@ -1,4 +1,8 @@
 pr:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: 
   branches:
     include:
       - dev
